@@ -117,8 +117,6 @@ main section p {
 
 .media {
     display: grid;
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* grid-template-rows: repeat(3, 1fr); */
     width: 100%;
 }
 
@@ -171,4 +169,145 @@ main section p {
     background-color: rgba(255, 255, 255, 0.04);
     border-color: rgba(255, 255, 255, 0.15);
     transform: translateY(-4px);
+}
+
+.about-agent { 
+    display: flex;
+    margin: 50px auto;
+    gap: 20px;
+    width: 98%;
+    background-color: #1B1912;
+}
+
+.right-side {
+    margin-left: 20px;
+    align-items: left;
+    justify-content: center;
+    width: 30%;
+    margin: auto 0;
+    padding: 20px;
+}
+
+.right-side h2 {
+    color: #EDECEC;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.right-side p {
+    color: #999894;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.right-side a {
+    text-decoration: none;
+    color: #f94545;
+}
+
+.left-side {
+    width: 70%;
+    padding: 20px;
+}
+
+.left-side img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-tab {
+    display: flex;
+    margin: 50px auto;
+    gap: 20px;
+    width: 98%;
+    background-color: #1B1912;
+}
+
+.about-tab .right-side {
+    width: 70%;
+    padding: 20px;
+}
+
+.about-tab .right-side img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.about-tab .left-side {
+    margin-left: 20px;
+    align-items: left;
+    justify-content: center;
+    width: 30%;
+    margin: auto 0;
+    padding: 20px;
+}
+
+.about-tab .left-side h2 {
+    color: #EDECEC;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 24px;
+}
+
+.about-tab .left-side p {
+    color: #999894;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    font-size: 19px;
+}
+
+.about-tab .left-side a {
+    text-decoration: none;
+    color: #f94545;
+}
+
+.review-section {
+    /* background-color: #1B1912; */
+    padding: 40px 20px;
+    margin: 50px auto;
+    width: 98%;
+    border-radius: 10px;
+}
+
+.reviews-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reviews-title h2 {
+    color: #EDECEC;
+    margin-bottom: 10px;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.review-card {
+    background-color: #1B1912;
+    border-radius: 10px;
+    padding: 20px;
+    padding-bottom: 0px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-text {
+    color: #EDECEC;
+    font-size: 16px;
+    line-height: 1.4;
+    margin-bottom: 80px;
+}
+
+.review-author {
+    color: #999894;
+    margin-top: 30px;
+    font-size: 12px;
 }
