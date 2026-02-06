@@ -1,6 +1,6 @@
 # Cursor Landing Page Clone
 
-A pixel-perfect recreation of the Cursor.ai landing page, built with pure HTML, CSS, and vanilla JavaScript. This project showcases modern web development techniques including CSS Grid, responsive design, and smooth animations.
+A recreation of the Cursor.ai landing page, built with pure HTML, CSS. This project showcases modern web development techniques including CSS Grid, responsive design, and smooth animations.
 
 ## 🎯 About
 
